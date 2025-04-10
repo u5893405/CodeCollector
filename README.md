@@ -5,11 +5,9 @@ User picks relevant parts of code to include in final prompt for LLM.
 
 # Features
 
--Allows to group items (marked code-parts and whole files) by "features". User just selects checkboxes the single items or "features" to have them added for final prompt for LLM.
+-Allows to group items (marked code-parts and whole files) by "features". User just selects checkboxes the single items or whole "features" (selecting everything inside them) to have them added for final prompt for LLM. 
 
--Allows to add separate code-parts inside single file, and track them, so you will always see it's content if it would be edited. 
-It's done by marking these code-parts by markings (made by commenting the code) with unique IDs.
-CodeCollector keeps track of these unique IDs in it's database
+-Allows to add separate code-parts inside single file, and track them, so you will always see it's content if it would be edited. It's done by marking these code-parts by markings (made by commenting the code) with unique IDs. CodeCollector keeps track of these unique IDs in it's database. Style of comments is chosen either automatically (by file extension) or manually by user. 
 
 -Allows to add (by path/filename) whole file, for CodeCollector to track them
 
