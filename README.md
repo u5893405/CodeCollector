@@ -28,3 +28,7 @@ CodeCollector keeps track of these unique IDs in it's database
 -codebase analysis to find all interconnected/related code (so LLM would not miss anything when implementing/fixing)
 
 -ability to quickly accept new code from LLM to existing code-base (to individual code-parts/files), showing difference and analyzing for task conformity
+
+# Releases
+
+https://github.com/u5893405/CodeCollector/releases/download/alpha/code-collector.build.18.march.exe
